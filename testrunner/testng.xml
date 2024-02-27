@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- <suite name="BankAccount payments">
+  <test thread-count="5" name="Test">
+	   <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/v3/manage/home" />
+	  <parameter name="amountvalue" value="100" />
+	  <parameter name="Bank_Name1" value="T" /><parameter name="Bank_Name2" value="y" /><parameter name="Bank_Name3" value="l" />
+    <classes>
+	  <class name="Home_page.Bank_ACH"/>
+      <class name="Home_page.Bank_WIre"/>
+      <class name="Home_page.Bank_VirtualCard"/>
+      <class name="Home_page.Bank_Check"/>
+    </classes>
+  </test> 
+</suite> 
+ --> 
+<!-- <suite name="Wallet payments">
+  <test thread-count="5" name="Test">
+	   <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/v3/manage/home" />
+	  <parameter name="amountvalue" value="50" />
+	  <parameter name="Wallet_Name1" value="m" /><parameter name="Wallet_Name2" value="a" /><parameter name="Wallet_Name3" value="s" />
+    <classes>
+	<class name="Home_page.Wallet_to_CheckMail"/>
+	<class name="Home_page.Wallet_to_ACH"/>
+	<class name="Home_page.Wallet_to_VirtualCard"/>
+	<class name="Home_page.Wallet_to_Wire"/>
+    </classes>
+  </test> 
+</suite> 
+-->
+
+
+ <!-- <suite name="CreditCard payments">
+  <test thread-count="5" name="Test">
+	  <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/v3/manage/home" />
+	  <parameter name="amountvalue" value="50" />	 
+	  <parameter name="CreditCard_Name1" value="m" /><parameter name="CreditCard_Name2" value="a" /><parameter name="CreditCard_Name3" value="s" />
+    <classes>
+	   <class name="Home_page.CreditCard_to_ACH"/> 
+	   <class name="Home_page.CreditCard_to_Wire"/> 
+	   <class name="Home_page.CreditCard_to_CheckMail"/> 
+	   <class name="Home_page.CreditCard_to_VirtualCard"/>
+    </classes>
+  </test> 
+</suite> 
+-->
+
+  <!-- <suite name="Cloud Bank payments">
+  <test thread-count="5" name="Test">
+	  <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/v3/manage/home" />
+	  <parameter name="amountvalue" value="15" />	 
+	 <parameter name="Bank_Name1" value="Tyler" />
+    <classes>
+	   <class name="Home_page.CloudBank_ACH"/>
+	   <class name="Home_page.CloudBnak_Wire_Domestic"/> 
+	   <class name="Home_page.CloudBank_Wire_International"/> 
+	   <class name="Home_page.CloudBank_InstantCloudTransfer"/>  
+	  
+    </classes>
+  </test> 
+</suite> 
+-->
+
+
+ <!-- <suite name="All payments">
+  <test thread-count="5" name="Test">
+	  <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/v3/manage/home" />
+	  <parameter name="amountvalue" value="100" />
+	  <parameter name="Bank_Name1" value="T" /><parameter name="Bank_Name2" value="y" /><parameter name="Bank_Name3" value="l" />
+	  <parameter name="Wallet_Name1" value="m" /><parameter name="Wallet_Name2" value="a" /><parameter name="Wallet_Name3" value="s" />
+	  <parameter name="CreditCard_Name1" value="m" /><parameter name="CreditCard_Name2" value="a" /><parameter name="CreditCard_Name3" value="s" />
+    <classes>
+	  <class name="Home_page.Bank_ACH"/>
+      <class name="Home_page.Bank_WIre"/>
+      <class name="Home_page.Bank_VirtualCard"/>
+      <class name="Home_page.Bank_Check"/>
+      <class name="Home_page.Wallet_to_CheckMail"/>
+	  <class name="Home_page.Wallet_to_ACH"/>
+	  <class name="Home_page.Wallet_to_VirtualCard"/>
+	  <class name="Home_page.Wallet_to_Wire"/>
+	  <class name="Home_page.CreditCard_to_ACH"/> 
+	  <class name="Home_page.CreditCard_to_Wire"/> 
+	  <class name="Home_page.CreditCard_to_CheckMail"/> 
+	  <class name="Home_page.CreditCard_to_VirtualCard"/>
+	  <class name="Home_page.CloudBank_ACH"/> 
+	  <class name="Home_page.CloudBnak_Wire_Domestic"/> 
+	   <class name="Home_page.CloudBank_Wire_International"/> 
+	   <class name="Home_page.CloudBank_InstantCloudTransfer"/>  
+    </classes>
+  </test> 
+</suite> 
+-->
+
+ 
+
+<suite name=" TEST Run">
+  <test thread-count="5" name="Test">
+	  <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/v3/manage/home" />
+	  <parameter name="amountvalue" value="15" />
+	  <parameter name="Bank_Name1" value="T" /><parameter name="Bank_Name2" value="y" /><parameter name="Bank_Name3" value="l" />
+	  <parameter name="Wallet_Name1" value="m" /><parameter name="Wallet_Name2" value="a" /><parameter name="Wallet_Name3" value="s" />
+	  <parameter name="CreditCard_Name1" value="m" /><parameter name="CreditCard_Name2" value="a" /><parameter name="CreditCard_Name3" value="s" />
+    <classes>
+	
+          
+	   
+	     <class name="Home_page.Bank_ACH"/>
+	       
+    </classes>
+  </test> 
+</suite> 
+

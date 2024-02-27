@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CreditCard payments]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Wallet_Name1" value="m"/>
+    <parameter name="CreditCard_Name1" value="m"/>
+    <parameter name="Wallet_Name2" value="a"/>
+    <parameter name="CreditCard_Name2" value="a"/>
+    <parameter name="Wallet_Name3" value="s"/>
+    <parameter name="CreditCard_Name3" value="s"/>
+    <parameter name="amountvalue" value="50"/>
+    <parameter name="Bank_Name2" value="y"/>
+    <parameter name="Bank_Name3" value="l"/>
+    <parameter name="Bank_Name1" value="T"/>
+    <classes>
+      <class name="Home_page.CreditCard_to_VirtualCard">
+        <methods>
+          <include name="CreditCard_VirtualCard" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Home_page.CreditCard_to_VirtualCard -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [CreditCard payments] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Wallet payments]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Wallet_Name1" value="m"/>
+    <parameter name="Wallet_Name2" value="a"/>
+    <parameter name="Wallet_Name3" value="s"/>
+    <parameter name="amountvalue" value="50"/>
+    <parameter name="URL_Home" value="https://release-v35-staging.web.ocw.sebipay.com/v3/manage/home"/>
+    <classes>
+      <class name="Home_page.Wallet_to_Wire">
+        <methods>
+          <include name="Wallet_Wire" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Wallet_Wire_Save" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Home_page.Wallet_to_Wire -->
+      <class name="Home_page.Wallet_to_VirtualCard">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Wallet_VirtualCard" invocation-numbers="0"/>
+          <include name="Wallet_VirtualCard_Save" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Home_page.Wallet_to_VirtualCard -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Wallet payments] -->
