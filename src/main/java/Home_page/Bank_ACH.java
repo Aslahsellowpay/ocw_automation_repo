@@ -131,7 +131,7 @@ public class Bank_ACH extends BaseTest {
 			  
 		    int flag=0; 
 		    try {
-		    	 WebElement oops = driver.findElement(By.xpath("//h2[contains(text(),'Oops!')]"));
+		    	 WebElement oops = driver.findElement(By.xpath("//h2[contains(text(),'Oops!')]"));  
 			        if (oops.isDisplayed()) {
 			        	flag = 1;
 

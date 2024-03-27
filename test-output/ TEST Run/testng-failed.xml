@@ -16,9 +16,10 @@
     <classes>
       <class name="Home_page.Bank_ACH">
         <methods>
+          <include name="Bank_ACH_Processing"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="Bank_ACH_Save" invocation-numbers="0"/>
+          <include name="Bank_ACH_Save"/>
         </methods>
       </class> <!-- Home_page.Bank_ACH -->
     </classes>

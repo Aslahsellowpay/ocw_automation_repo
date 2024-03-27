@@ -20,7 +20,7 @@ public class BaseTest {
 	@Parameters({"URL_Home"})
 	public void setup(String URL_Home)
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ASLAH KHAN\\Downloads\\chromedriver-win64 (2)\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ASLAH KHAN\\Downloads\\chromedriver-win64 (3)\\chromedriver-win64\\chromedriver.exe");
 		
 		driver=new ChromeDriver();
 		

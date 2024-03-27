@@ -137,7 +137,7 @@ public class Bank_Check extends BaseTest {
 		        	flag = 1;
 
 	         if(flag==1) {
-	            WebElement Ok = driver.findElement(By.xpath("//button[contains(text(),'OK')]"));      
+	            WebElement Ok = driver.findElement(By.xpath("//button[contains(text(),'OK')]"));
 	            Ok.click();
 	            WebElement Close = driver.findElement(By.xpath("//button[contains(text(),'Close')]"));
 	            Close.click();	 

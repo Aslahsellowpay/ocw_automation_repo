@@ -94,7 +94,7 @@
 
  
 
-<suite name=" TEST Run">
+ <suite name=" TEST Run">
   <test thread-count="5" name="Test">
 	  <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/v3/manage/home" />
 	  <parameter name="amountvalue" value="15" />
@@ -105,8 +105,8 @@
 	
           
 	   
-	     <class name="Home_page.Bank_ACH"/>
-	       
+	       <class name="Home_page.Bank_ACH"/>
+     
     </classes>
   </test> 
 </suite> 

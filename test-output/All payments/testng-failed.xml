@@ -23,7 +23,6 @@
       </class> <!-- Home_page.Bank_Check -->
       <class name="Home_page.CreditCard_to_Wire">
         <methods>
-          <include name="CreditCard_Wire_Processing" invocation-numbers="0"/>
           <include name="CreditCard_Wire_Save" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="tearDown"/>
@@ -34,16 +33,8 @@
           <include name="Wallet_Wire_Processing" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="Wallet_Wire_Save" invocation-numbers="0"/>
         </methods>
       </class> <!-- Home_page.Wallet_to_Wire -->
-      <class name="Home_page.CreditCard_to_ACH">
-        <methods>
-          <include name="CreditCard_ACH_Processing" invocation-numbers="0"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- Home_page.CreditCard_to_ACH -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [All payments] -->
