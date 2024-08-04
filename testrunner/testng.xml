@@ -65,7 +65,7 @@
 
  <!-- <suite name="All payments">
   <test thread-count="5" name="Test">
-	  <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/v3/manage/home" />
+	  <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/manage/home" />
 	  <parameter name="amountvalue" value="100" />
 	  <parameter name="Bank_Name1" value="T" /><parameter name="Bank_Name2" value="y" /><parameter name="Bank_Name3" value="l" />
 	  <parameter name="Wallet_Name1" value="m" /><parameter name="Wallet_Name2" value="a" /><parameter name="Wallet_Name3" value="s" />
@@ -96,17 +96,18 @@
 
  <suite name=" TEST Run">
   <test thread-count="5" name="Test">
-	  <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/v3/manage/home" />
-	  <parameter name="amountvalue" value="15" />
+	  <parameter name="URL_Home" value="https://staging.web.ocw.sebipay.com/manage/home" />
+	  <parameter name="amountvalue" value="40" />
 	  <parameter name="Bank_Name1" value="T" /><parameter name="Bank_Name2" value="y" /><parameter name="Bank_Name3" value="l" />
 	  <parameter name="Wallet_Name1" value="m" /><parameter name="Wallet_Name2" value="a" /><parameter name="Wallet_Name3" value="s" />
 	  <parameter name="CreditCard_Name1" value="m" /><parameter name="CreditCard_Name2" value="a" /><parameter name="CreditCard_Name3" value="s" />
     <classes>
 	
-          
-	   
-	       <class name="Home_page.Bank_ACH"/>
-     
+         
+	          <class name="Home_page.Bank_ACH"/>
+	       
+	       
+	       
     </classes>
   </test> 
 </suite> 

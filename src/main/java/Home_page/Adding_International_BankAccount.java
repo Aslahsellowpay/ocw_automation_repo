@@ -21,7 +21,7 @@ public class Adding_International_BankAccount extends BaseTest {
 		    WebElement Account_Type =driver.findElement(By.xpath("//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/div[1]/div[1]/app-add-payee-modal[1]/div[1]/form[1]/div[1]/app-add-payee-international-bank-account[1]/div[1]/form[1]/div[2]/div[1]/div[4]/select[1]"));
 		    Select Personal = new Select(Account_Type);	 
 		    Personal.selectByVisibleText("Personal");		    
-		    WebElement Bank_Name =driver.findElement(By.xpath("//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/div[1]/div[1]/app-add-payee-modal[1]/div[1]/form[1]/div[1]/app-add-payee-international-bank-account[1]/div[1]/form[1]/div[2]/div[1]/div[5]/input[1]"));
+		    WebElement Bank_Name =driver.findElement(By.xpath("/html[1]/body[1]/div[3]/div[2]/div[1]/mat-dialog-container[1]/div[1]/div[1]/app-add-payee-modal[1]/div[1]/form[1]/div[1]/app-add-payee-international-bank-account[1]/div[1]/form[1]/div[2]/div[2]/div[1]/input[1]"));
 		    Bank_Name.sendKeys("Test");
 		    
 		    WebElement Address_Line1 =driver.findElement(By.xpath("//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/div[1]/div[1]/app-add-payee-modal[1]/div[1]/form[1]/div[1]/app-add-payee-international-bank-account[1]/div[1]/form[1]/div[2]/div[2]/div[1]/input[1]"));

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Home_page.CloudBank_InstantCloudTransfer">
+      <class name="Home_page.Bank_Check">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="CloudBank_Instant_Transfer"/>
+          <include name="Bank_Check_Email"/>
         </methods>
-      </class> <!-- Home_page.CloudBank_InstantCloudTransfer -->
+      </class> <!-- Home_page.Bank_Check -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -264,7 +264,7 @@ public class CreditCard_to_Wire extends BaseTest{
 		        robot.keyRelease(KeyEvent.VK_V);
 		        robot.keyRelease(KeyEvent.VK_CONTROL);
 
-		        // Delay to ensure that the file path is pasted
+		        
 		        Thread.sleep(2000);
 
 		        // Press Enter to confirm the file upload
@@ -385,6 +385,7 @@ public class CreditCard_to_Wire extends BaseTest{
 		            Thread.sleep(2000);
 		        } catch (InterruptedException e) {
 		            e.printStackTrace();
+		           
 		        }
 			    driver.findElement(By.xpath("//span[contains(text(),'Next')]")).click(); // clicking next
 			    driver.findElement(By.xpath("//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/div[1]/div[1]/app-add-payee-modal[1]/div[1]/form[1]/div[1]/div[3]/mat-dialog-actions[1]/button[2]/span[1]")).click();  //clicking save
