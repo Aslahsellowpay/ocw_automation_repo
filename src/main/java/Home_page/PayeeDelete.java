@@ -40,17 +40,17 @@ public class PayeeDelete extends BaseTest{
 		     } catch (InterruptedException e) {
 		         e.printStackTrace();
 		     }
-		    
+		    int flag=0;
+		   
 		    try {
 		    	 WebElement Confirm = driver.findElement(By.xpath("//h2[contains(text(),'Confirm')]"));
 			        if (Confirm .isDisplayed()) {
+			        	flag=1;
 			        	
-
-		        
-		            WebElement Ok = driver.findElement(By.xpath("//button[contains(text(),'OK')]"));      
-		            Ok.click();
+			        if (flag==1) {
+			        	
 		           
-		        }
+		        }}
 			        
 		    }catch (org.openqa.selenium.NoSuchElementException e) {}
 		    		    		 	    		    

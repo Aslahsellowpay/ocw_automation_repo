@@ -46,7 +46,7 @@ public class Payee_Add extends BaseTest {
             Thread.sleep(2000);	      
 		    AddressWire.sendKeys(Keys.ARROW_DOWN);
 		    AddressWire.sendKeys(Keys.ENTER);
-		    Thread.sleep(2000);
+		    Thread.sleep(5000);
 	   	    driver.findElement(By.xpath("//span[contains(text(),'Next')]")).click(); // clicking next
 		    driver.findElement(By.xpath("//body/div[2]/div[2]/div[1]/mat-dialog-container[1]/div[1]/div[1]/app-add-payee-modal[1]/div[1]/form[1]/div[1]/div[3]/mat-dialog-actions[1]/button[2]/span[1]")).click();  //clicking save	    
 	        Thread.sleep(2000);
